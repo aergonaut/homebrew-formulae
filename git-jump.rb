@@ -7,6 +7,6 @@ class GitJump < Formula
   depends_on "thoughtbot/formulae/pick"
 
   def install
-    prefix.install "git-jump.sh"
+    bin.install "git-jump.sh"
   end
 end
