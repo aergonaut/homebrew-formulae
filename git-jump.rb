@@ -10,6 +10,5 @@ class GitJump < Formula
 
   def install
     bin.install "git-jump"
-      system "chmod a+x ./bin/git-jump"
   end
 end
