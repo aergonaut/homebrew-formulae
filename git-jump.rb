@@ -9,7 +9,7 @@ class GitJump < Formula
   depends_on "thoughtbot/formulae/pick"
 
   def install
-    system "chmod a+x ./git-jump"
     bin.install "git-jump"
+      system "chmod a+x ./bin/git-jump"
   end
 end
