@@ -11,4 +11,8 @@ class GitJump < Formula
   def install
     bin.install "git-jump"
   end
+
+  test do
+    system "git-jump"
+  end
 end
